@@ -36,7 +36,7 @@ export async function getStaticPaths() {
     paths: products.map((product) => ({
       params: { slug: product.id },
     })),
-    fallback: "blocking", // or false // See the "fallback" section below
+    fallback: "fallback", // or false // See the "fallback" section below
   };
 }
 
