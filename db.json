@@ -1,0 +1,31 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server 1", "author": "typicode 1" },
+    { "id": 2, "title": "json-server 2", "author": "typicode 2" },
+    { "id": 3, "title": "json-server 3", "author": "typicode 3" },
+    { "id": 4, "title": "json-server 4", "author": "typicode 4" },
+    { "id": 5, "title": "json-server 5", "author": "typicode 5" },
+    { "id": 6, "title": "json-server 6", "author": "typicode 6" },
+    { "id": 7, "title": "json-server 7", "author": "typicode 7" },
+    { "id": 8, "title": "json-server 8", "author": "typicode 8" },
+    { "id": 9, "title": "json-server 9", "author": "typicode 9" },
+    { "id": 10, "title": "json-server 10", "author": "typicode 10" },
+    { "id": 11, "title": "json-server 11", "author": "typicode 11" },
+    { "id": 12, "title": "json-server 12", "author": "typicode 12" },
+    { "id": 13, "title": "json-server 13", "author": "typicode 13" },
+    { "id": 14, "title": "json-server 14", "author": "typicode 14" },
+    { "id": 15, "title": "json-server 15", "author": "typicode 15" },
+    { "id": 16, "title": "json-server 16", "author": "typicode 16" },
+    { "id": 17, "title": "json-server 17", "author": "typicode 17" },
+    { "id": 18, "title": "json-server 18", "author": "typicode 18" },
+    { "id": 19, "title": "json-server 19", "author": "typicode 19" },
+    { "id": 20, "title": "json-server 20", "author": "typicode 20" },
+    { "id": 21, "title": "json-server 21", "author": "typicode 21" },
+    { "id": 22, "title": "json-server 22", "author": "typicode 22" },
+    { "id": 23, "title": "json-server 23", "author": "typicode 23" },
+    { "id": 24, "title": "json-server 24", "author": "typicode 24" },
+    { "id": 25, "title": "json-server 25", "author": "typicode 25" }
+  ],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
+}
