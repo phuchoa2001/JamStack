@@ -2,33 +2,29 @@ import Link from "next/link";
 import Image from 'next/image';
 
 import { useRouter } from "next/router";
-import HeaderSeo from "../components/HeaderSeo/HeaderSeo";
 
 export default function Post({ products }) {
   const router = useRouter({});
 
-  if (router.isFallback) {
+  if(router.isFallback) {
     return <p>Loading...</p>
   }
   return (
-    <>
-      <HeaderSeo title={products.name} desc="Dự án test JamStack" image={products.avatar} />
-      <div>
-        <Link href="/">
-          <a>Go Home</a>
-        </Link>
+    <div>
+      <Link href="/">
+        <a>Go Home</a>
+      </Link>
 
-        <h1 className="block text-9xl font-extrabold bg-gradient-to-br from-indigo-600 to-purple-800 bg-clip-text text-transparent">
-          {products.name}
-        </h1>
-        <img
-          src={products.avatar}
-          alt="Picture of the author"
-          width={200}
-          height={200}
-        />
-      </div>
-    </>
+      <h1 className="block text-9xl font-extrabold bg-gradient-to-br from-indigo-600 to-purple-800 bg-clip-text text-transparent">
+        {products.name}
+      </h1>
+      <img
+        src={products.avatar}
+        alt="Picture of the author"
+        width={200}
+        height={200}
+      />
+    </div>
   );
 }
 

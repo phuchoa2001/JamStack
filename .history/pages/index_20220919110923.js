@@ -1,14 +1,9 @@
 import Link from "next/link";
-import HeaderSeo from "../components/HeaderSeo/HeaderSeo";
 
 export default function Home({ products }) {
   const Random = Math.random();
   return (
     <>
-      <HeaderSeo
-        title="Chào mừng bạn đến với JamStack" desc="Dự án test JamStack"
-        image="https://jamstackvietnam.com/cover.jpg"
-      />
       <h1 className="mb-32 text-7xl font-extrabold text-black">
         Xin chào đến với blog tĩnh
       </h1>
