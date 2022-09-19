@@ -12,7 +12,7 @@ export default function Post({ products }) {
   }
   return (
     <>
-      <HeaderSeo title={products.name} desc="Dự án test JamStack" image={"https://jamstackvietnam.com/cover.jpg"} />
+      <HeaderSeo title={products.name} desc="Dự án test JamStack" image={products.avatar} />
       <div>
         <Link href="/">
           <a>Go Home</a>
