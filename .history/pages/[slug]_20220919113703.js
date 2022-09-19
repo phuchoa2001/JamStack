@@ -1,14 +1,7 @@
 import Link from "next/link";
-import Image from 'next/image';
-
-import { useRouter } from "next/router";
+import Image from 'next/image'
 
 export default function Post({ products }) {
-  const router = useRouter({});
-
-  if(router.isFallback) {
-    return <p>Loading...</p>
-  }
   return (
     <div>
       <Link href="/">
@@ -45,7 +38,6 @@ export async function getStaticProps({ params }) {
   const res = await fetch(`https://6321206282f8687273ad17ab.mockapi.io/test/products/${params.slug}`);
   const products = await res.json();
   return {
-    props: { products },
-    revalidate: 1
+    props: { products }
   };
 } 
